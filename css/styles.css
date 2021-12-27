@@ -282,7 +282,7 @@ img {
   justify-content: center;
 }
 .paculiarities-item {
-  width: 280px;
+  width: 270px;
 }
 .paculiarities-item:not(:last-child) {
   margin-right: 30px;
@@ -292,6 +292,23 @@ img {
   display: block;
   height: 120px;
   margin-bottom: 30px;
+  border-radius: 4px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.pacu-icon-1::before {
+  background-image: url(../images/pacu-icon-1.svg);
+}
+.pacu-icon-2::before {
+  background-image: url(../images/pacu-icon-2.svg);
+}
+.pacu-icon-3::before {
+  background-image: url(../images/pacu-icon-3.svg);
+}
+.pacu-icon-4::before {
+  background-image: url(../images/pacu-icon-4.svg);
 }
 .paculiarities-title {
   margin-bottom: 10px;
@@ -314,7 +331,7 @@ img {
   margin-right: 30px;
 }
 .team-section {
-  background-color: #f5f4fa;
+  background-color: var(--secondary-background-color);
 }
 .team-list {
   display: flex;
